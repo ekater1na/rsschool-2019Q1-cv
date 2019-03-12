@@ -1,0 +1,54 @@
+body {
+    font-family: Arial; 
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 768px;
+    max-width: 1024px;
+}
+
+h1 {
+    text-align: center;
+    color:rgb(104, 124, 158);
+}
+
+img {
+    width: 150px;
+    height: auto;
+    float: left;
+    padding: 10px;
+}
+
+td {
+    border-collapse: collapse; 
+    border-bottom: 1px solid grey; 
+}
+
+.row-name {
+    height: 40px;
+    font-weight: bold;
+    color: rgb(104, 124, 158);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:link {
+    color: rgb(127, 29, 151);
+}
+
+a:visited {
+    color: rgb(34, 59, 55);
+}
+
+a:active {
+    color: green;
+}
